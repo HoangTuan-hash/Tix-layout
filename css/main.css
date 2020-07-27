@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #333;
+  line-height: 1.42857;
+  color: #333;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.ticket__content {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.ticket__item {
+  position: relative;
+}
+
+.ticket__item::after {
+  content: '';
+  border-right: 1px solid rgba(238, 238, 238, 0.88);
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.ticket__item:hover {
+  cursor: pointer;
+}
+
+.ticket__item--content {
+  height: 80px;
+  color: #333;
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ticket__item--content button {
+  width: 100%;
+}
+
+.ticket__dropdow {
+  width: max-content;
+  margin: -15px;
+  padding: 5px 0;
+  position: absolute;
+  top: 100%;
+  left: 15px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  display: none;
+}
+
+.ticket__dropdow ul {
+  list-style: none;
+  margin: 0;
+}
+
+.ticket__dropdow ul li {
+  margin: 0;
+  padding: 10px 15px;
+}
+
+.ticket__dropdow ul li p {
+  margin: 0;
+}
+
+.ticket__dropdow ul li a {
+  color: #333;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.ticket__dropdow ul li:hover {
+  background-color: #60c5ef;
+}
+
+.ticket__dropdow ul li:hover a {
+  color: #fff;
+}
+
+.ticket__show--drop {
+  display: block;
+}
+
+.showTimes {
+  padding: 30px 0;
+}
+
+.showTimes .colum {
+  border: 1px solid #ebebec;
+}
+
+.showTimes .nav-link {
+  width: 100%;
+  position: relative;
+  color: #333;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.showTimes .nav-link img {
+  width: 100%;
+  display: block;
+}
+
+.showTimes .active {
+  background-color: transparent;
+}
+
+.showTimes .showTime--branch-text .full--adress {
+  margin-bottom: 0;
+  color: #949494;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.showTimes .showTime--branch-text .cinema--name {
+  color: #fb4226;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.showTimes .showTime--branch-text .cinem-adress {
+  color: #333;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.showTimes .showTime--branch-text a {
+  color: #fb4226;
+}
+
+.showTimes .showTime__cinema--branch {
+  display: flex;
+  width: 100%;
+}
+
+.showTimes .showTime__cinema--branch .showTime__cinema--img {
+  width: 30%;
+  margin-right: 15px;
+}
+
+.showTimes .showTime__cinema--branch .showTime__cinema--img img {
+  width: 100%;
+}
+
+.showTimes .showTime__cinema--branch .showTime--branch-text {
+  width: 70%;
+}
+/*# sourceMappingURL=main.css.map */
