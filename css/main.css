@@ -105,49 +105,56 @@ html, body {
 
 .showTimes .colum {
   border: 1px solid #ebebec;
+  padding: 0;
 }
 
-.showTimes .nav-link {
+.showTimes .nav-tabs {
+  border: none;
+}
+
+.showTimes .nav-tabs .nav-item {
   width: 100%;
   position: relative;
+  padding: 10px;
+}
+
+.showTimes .nav-tabs .nav-item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: calc(100% - 30px);
+  transform: translateX(-50%);
+  border-bottom: 1px solid #fff;
+  border-color: rgba(238, 238, 238, 0.88);
+}
+
+.showTimes .nav-tabs .active {
+  border: none;
+}
+
+.showTimes .nav-tabs .link-tab {
+  padding: 10px 20px;
+}
+
+.showTimes .nav-tabs .nav-link {
+  width: 100%;
   color: #333;
   padding-left: 0;
   padding-right: 0;
 }
 
-.showTimes .nav-link img {
+.showTimes .nav-tabs .nav-link:focus, .showTimes .nav-tabs .nav-link:hover {
+  border: none;
+}
+
+.showTimes .nav-tabs .nav-link img {
   width: 100%;
   display: block;
 }
 
-.showTimes .active {
-  background-color: transparent;
-}
-
-.showTimes .showTime--branch-text .full--adress {
-  margin-bottom: 0;
-  color: #949494;
-  font-size: 14px;
-  font-weight: normal;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
-.showTimes .showTime--branch-text .cinema--name {
-  color: #fb4226;
-  font-size: 16px;
-  font-weight: 400;
-}
-
-.showTimes .showTime--branch-text .cinem-adress {
-  color: #333;
-  font-size: 16px;
-  font-weight: 700;
-}
-
-.showTimes .showTime--branch-text a {
-  color: #fb4226;
+.showTimes .nav-tabs .nav-item-after {
+  position: relative;
 }
 
 .showTimes .showTime__cinema--branch {
@@ -157,7 +164,7 @@ html, body {
 
 .showTimes .showTime__cinema--branch .showTime__cinema--img {
   width: 30%;
-  margin-right: 15px;
+  padding: 5px 20px;
 }
 
 .showTimes .showTime__cinema--branch .showTime__cinema--img img {
@@ -166,5 +173,31 @@ html, body {
 
 .showTimes .showTime__cinema--branch .showTime--branch-text {
   width: 70%;
+}
+
+.showTimes .showTime__cinema--branch .showTime--branch-text .full--adress {
+  margin-bottom: 0;
+  color: #949494;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.showTimes .showTime__cinema--branch .showTime--branch-text .cinema--name {
+  color: #fb4226;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.showTimes .showTime__cinema--branch .showTime--branch-text .cinem-adress {
+  color: #333;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.showTimes .showTime__cinema--branch .showTime--branch-text a {
+  color: #fb4226;
 }
 /*# sourceMappingURL=main.css.map */
