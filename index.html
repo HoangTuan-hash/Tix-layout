@@ -28,7 +28,7 @@
     <!-- end carousel -->
 
     <!-- ticket Tuấn võ -->
-    <section class="ticket">
+    <section class="ticket d-none d-lg-block">
         <div class="container">
             <div class="ticket__content row">
                 <div class="ticket__item col-3">
@@ -175,14 +175,14 @@
     <!-- end movie -->
 
     <!-- showtimes Tuấn Võ -->
-    <section class="showTimes">
-        <div class="container">
+    <section class="showTimes d-none d-sm-block">
+        <div class="container showTimes__content">
             <div class="row">
-                <div class="col-1 colum">
+                <div class=" colum colum-1">
 
                     <ul class="nav nav-tabs" id="showTimesTab">
-                        <li class="nav-item active nav-item-after">
-                            <a href="#nav-cgv" class="nav-link">
+                        <li class="nav-item nav-item-after active">
+                            <a href="#nav-cgv" class="nav-link ">
                                 <img src="./img/service1.png" alt="">
                             </a>
                         </li>
@@ -202,7 +202,7 @@
                             </a>
                         </li>
                         <li class="nav-item nav-item-after">
-                            <a href="#nav-dongda" class="nav-link">
+                            <a href="#nav-ccd" class="nav-link">
                                 <img src="./img/dongdacinama.png" alt="">
                             </a>
                         </li>
@@ -223,198 +223,203 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-4 colum">
+                <div class=" colum colum-2">
                     <div class="tab-content" id="nav-tabContent">
                         <!-- tab-pane cgv -->
                         <div class="tab-pane fade show active" id="nav-cgv">
 
                             <ul class="nav nav-tabs" id="showTimesTab">
-                                <li class="nav-item active link-tab" >
-                                        <div class="showTime__cinema--branch">
-                                            <div class="showTime__cinema--img">
-                                                 <a href="#nav-cgv-times-2" class="nav-link">
-                                                    <img src="./img/cgv-chinhanh2.jpg" alt="">
-                                                 </a>
-                                            </div>
-                                            <div class="showTime--branch-text">
-                                                <a href="#nav-cgv-times-1" class="nav-link">
-                                                    <span class="cinema--name">CGV</span>
-                                                    <span class="cinem-adress">
-                                                        - Saigones Nguyễn Xí
-                                                    </span>
-                                                    <p class="full--adress">Tầng 4-5, Saigonres Plaza, 79/81 Nguyễn Xí, P
-                                                        26, Q Bình Thạnh
-                                                    </p>
-                                                    <a href="#">[chi tiết]</a>
-                                                </a>
-                                                
-                                            </div>
+                                <li class="nav-item  link-tab active">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-1" class="nav-link active">
+                                                <img src="./img/cgv-chinhanh2.jpg" alt="">
+                                            </a>
                                         </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--name">CGV</span>
+                                                <span class="cinem-adress">
+                                                    - Saigones Nguyễn Xí
+                                                </span>
+                                                <p class="full--adress">Tầng 4-5, Saigonres Plaza, 79/81 Nguyễn Xí, P
+                                                    26, Q Bình Thạnh
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <img src="./img/cgv-chinhanh2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <span class="cinema--name">CGV</span>
+                                                <span class="cinem-adress">
+                                                    - Pandora City
+                                                </span>
+                                                <p class="full--adress">Lầu 3, Pandora City 1/1 Trường Chinh Quận Tân
+                                                    Phú TP. Hồ Chí Minh
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
                                     <!-- </a> -->
 
                                 </li>
-                                <li class="nav-item active link-tab" >
-                                        <div class="showTime__cinema--branch">
-                                            <div class="showTime__cinema--img">
-                                                 <a href="#nav-cgv-times-2" class="nav-link">
-                                                    <img src="./img/cgv-chinhanh2.jpg" alt="">
-                                                 </a>
-                                            </div>
-                                            <div class="showTime--branch-text">
-                                                <a href="#nav-cgv-times-1" class="nav-link">
-                                                    <span class="cinema--name">CGV</span>
-                                                    <span class="cinem-adress">
-                                                        - Pandora City
-                                                    </span>
-                                                    <p class="full--adress">Lầu 3, Pandora City 1/1 Trường Chinh Quận Tân Phú TP. Hồ Chí Minh
-                                                    </p>
-                                                    <a href="#">[chi tiết]</a>
-                                                </a>
-                                                
-                                            </div>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-3" class="nav-link">
+                                                <img src="./img/cgv-chinhanh2.jpg" alt="">
+                                            </a>
                                         </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-3" class="nav-link">
+                                                <span class="cinema--name">CGV</span>
+                                                <span class="cinem-adress">
+                                                    - Parkson Đồng Khởi
+                                                </span>
+                                                <p class="full--adress">Tầng 5, số 35 bis-45, đường Lê Thánh Tôn, Phường
+                                                    Bến Nghé, Quận 1, Tp. Hồ Chí Minh, Việt Nam
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
                                     <!-- </a> -->
 
                                 </li>
-                                <li class="nav-item active link-tab" >
-                                        <div class="showTime__cinema--branch">
-                                            <div class="showTime__cinema--img">
-                                                 <a href="#nav-cgv-times-2" class="nav-link">
-                                                    <img src="./img/cgv-chinhanh2.jpg" alt="">
-                                                 </a>
-                                            </div>
-                                            <div class="showTime--branch-text">
-                                                <a href="#nav-cgv-times-1" class="nav-link">
-                                                    <span class="cinema--name">CGV</span>
-                                                    <span class="cinem-adress">
-                                                        - Parkson Đồng Khởi
-                                                    </span>
-                                                    <p class="full--adress">Tầng 5, số 35 bis-45, đường Lê Thánh Tôn, Phường Bến Nghé, Quận 1, Tp. Hồ Chí Minh, Việt Nam
-                                                    </p>
-                                                    <a href="#">[chi tiết]</a>
-                                                </a>
-                                                
-                                            </div>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <img src="./img/cgv-chinhanh2.jpg" alt="">
+                                            </a>
                                         </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--name">CGV</span>
+                                                <span class="cinem-adress">
+                                                    - Thảo Điền Pearl
+                                                </span>
+                                                <p class="full--adress">Tầng 2, Thảo Điền Mall, 12 Quốc Hương, Phường
+                                                    Thảo Điền, Quận 2, TP. Hồ Chí Minh
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
                                     <!-- </a> -->
 
                                 </li>
-                                <li class="nav-item active link-tab" >
-                                        <div class="showTime__cinema--branch">
-                                            <div class="showTime__cinema--img">
-                                                 <a href="#nav-cgv-times-2" class="nav-link">
-                                                    <img src="./img/cgv-chinhanh2.jpg" alt="">
-                                                 </a>
-                                            </div>
-                                            <div class="showTime--branch-text">
-                                                <a href="#nav-cgv-times-1" class="nav-link">
-                                                    <span class="cinema--name">CGV</span>
-                                                    <span class="cinem-adress">
-                                                        - Thảo Điền Pearl
-                                                    </span>
-                                                    <p class="full--adress">Tầng 2, Thảo Điền Mall, 12 Quốc Hương, Phường Thảo Điền, Quận 2, TP. Hồ Chí Minh
-                                                    </p>
-                                                    <a href="#">[chi tiết]</a>
-                                                </a>
-                                                
-                                            </div>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <img src="./img/cgv-chinhanh2.jpg" alt="">
+                                            </a>
                                         </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--name">CGV</span>
+                                                <span class="cinem-adress">
+                                                    - Satra Củ Chi
+                                                </span>
+                                                <p class="full--adress">Tầng 3, TTTM Satra Củ Chi, Số 1239, Tỉnh Lộ 8,
+                                                    Ấp Thạnh An, Xã Trung An, Huyện Củ Chi, TP.HCM
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
                                     <!-- </a> -->
 
                                 </li>
-                                <li class="nav-item active link-tab" >
-                                        <div class="showTime__cinema--branch">
-                                            <div class="showTime__cinema--img">
-                                                 <a href="#nav-cgv-times-2" class="nav-link">
-                                                    <img src="./img/cgv-chinhanh2.jpg" alt="">
-                                                 </a>
-                                            </div>
-                                            <div class="showTime--branch-text">
-                                                <a href="#nav-cgv-times-1" class="nav-link">
-                                                    <span class="cinema--name">CGV</span>
-                                                    <span class="cinem-adress">
-                                                        - Satra Củ Chi
-                                                    </span>
-                                                    <p class="full--adress">Tầng 3, TTTM Satra Củ Chi, Số 1239, Tỉnh Lộ 8, Ấp Thạnh An, Xã Trung An, Huyện Củ Chi, TP.HCM
-                                                    </p>
-                                                    <a href="#">[chi tiết]</a>
-                                                </a>
-                                                
-                                            </div>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <img src="./img/cgv-chinhanh2.jpg" alt="">
+                                            </a>
                                         </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--name">CGV</span>
+                                                <span class="cinem-adress">
+                                                    - Aeon Tân Phú
+                                                </span>
+                                                <p class="full--adress">Lầu 3, Aeon Mall 30 Bờ Bao Tân Thắng, P. Sơn Kỳ
+                                                    Quận Tân Phú TP. Hồ Chí Minh
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
                                     <!-- </a> -->
 
                                 </li>
-                                <li class="nav-item active link-tab" >
-                                        <div class="showTime__cinema--branch">
-                                            <div class="showTime__cinema--img">
-                                                 <a href="#nav-cgv-times-2" class="nav-link">
-                                                    <img src="./img/cgv-chinhanh2.jpg" alt="">
-                                                 </a>
-                                            </div>
-                                            <div class="showTime--branch-text">
-                                                <a href="#nav-cgv-times-1" class="nav-link">
-                                                    <span class="cinema--name">CGV</span>
-                                                    <span class="cinem-adress">
-                                                        - Aeon Tân Phú
-                                                    </span>
-                                                    <p class="full--adress">Lầu 3, Aeon Mall 30 Bờ Bao Tân Thắng, P. Sơn Kỳ Quận Tân Phú TP. Hồ Chí Minh
-                                                    </p>
-                                                    <a href="#">[chi tiết]</a>
-                                                </a>
-                                                
-                                            </div>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <img src="./img/cgv-chinhanh2.jpg" alt="">
+                                            </a>
                                         </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--name">CGV</span>
+                                                <span class="cinem-adress">
+                                                    - IMC Trần Quang Khải
+                                                </span>
+                                                <p class="full--adress">Tầng 2 & 3, Trung Tâm Văn Hóa Đa Năng, 62 Trần
+                                                    Quang Khải, P. Tân Định, Q. 1
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
                                     <!-- </a> -->
 
                                 </li>
-                                <li class="nav-item active link-tab" >
-                                        <div class="showTime__cinema--branch">
-                                            <div class="showTime__cinema--img">
-                                                 <a href="#nav-cgv-times-2" class="nav-link">
-                                                    <img src="./img/cgv-chinhanh2.jpg" alt="">
-                                                 </a>
-                                            </div>
-                                            <div class="showTime--branch-text">
-                                                <a href="#nav-cgv-times-1" class="nav-link">
-                                                    <span class="cinema--name">CGV</span>
-                                                    <span class="cinem-adress">
-                                                        - IMC Trần Quang Khải
-                                                    </span>
-                                                    <p class="full--adress">Tầng 2 & 3, Trung Tâm Văn Hóa Đa Năng, 62 Trần Quang Khải, P. Tân Định, Q. 1
-                                                    </p>
-                                                    <a href="#">[chi tiết]</a>
-                                                </a>
-                                                
-                                            </div>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <img src="./img/cgv-chinhanh2.jpg" alt="">
+                                            </a>
                                         </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--name">CGV</span>
+                                                <span class="cinem-adress">
+                                                    - Liberty Citypoint
+                                                </span>
+                                                <p class="full--adress">Tầng M - 1, khách sạn Liberty Center Saigon
+                                                    Citypoint, 59 - 61 Pasteur, Quận 1
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
                                     <!-- </a> -->
 
                                 </li>
-                                <li class="nav-item active link-tab" >
-                                        <div class="showTime__cinema--branch">
-                                            <div class="showTime__cinema--img">
-                                                 <a href="#nav-cgv-times-2" class="nav-link">
-                                                    <img src="./img/cgv-chinhanh2.jpg" alt="">
-                                                 </a>
-                                            </div>
-                                            <div class="showTime--branch-text">
-                                                <a href="#nav-cgv-times-1" class="nav-link">
-                                                    <span class="cinema--name">CGV</span>
-                                                    <span class="cinem-adress">
-                                                        - Liberty Citypoint
-                                                    </span>
-                                                    <p class="full--adress">Tầng M - 1, khách sạn Liberty Center Saigon Citypoint, 59 - 61 Pasteur, Quận 1
-                                                    </p>
-                                                    <a href="#">[chi tiết]</a>
-                                                </a>
-                                                
-                                            </div>
-                                        </div>
-                                    <!-- </a> -->
 
-                                </li>
-                                
                             </ul>
                         </div>
                         <!-- end tab-pane cgv -->
@@ -422,28 +427,1583 @@
 
                         <!-- tab-pane bhd -->
                         <div class="tab-pane fade" id="nav-bhd" role="tabpanel" aria-labelledby="nav-profile-tab">
-                            ...</div>
+                            <ul class="nav nav-tabs" id="showTimesTab">
+                                <li class="nav-item  link-tab active">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link active">
+                                                <img src="./img/bhd-chinhanh1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameBHD">BHD Star</span>
+                                                <span class="cinem-adress">
+                                                    - Bitexco    
+                                                </span>
+                                                <p class="full--adress">L3-Bitexco Icon 68, 2 Hải Triều, Q.1
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <img src="./img/bhd-chinhanh2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameBHD">BHD Star</span>
+                                                <span class="cinem-adress">
+                                                    - Vincom Thảo Điền
+                                                </span>
+                                                <p class="full--adress">L5-Megamall, 159 XL Hà Nội, Q.2
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <!-- </a> -->
+
+                                </li>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <img src="./img/bhd-chinhanh3.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameBHD">BHD Star</span>
+                                                <span class="cinem-adress">  
+                                                    - Vincom 3/2
+                                                </span>
+                                                <p class="full--adress">
+                                                    L5-Vincom 3/2, 3C Đường 3/2, Q.10
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <!-- </a> -->
+
+                                </li>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <img src="./img/bhd-chinhanh4.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameBHD">BHD Star</span>
+                                                <span class="cinem-adress">
+                                                    - Phạm Hùng
+                                                </span>
+                                                <p class="full--adress">
+                                                    L4-Satra Phạm Hùng, C6/27 Phạm Hùng, Bình Chánh
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <!-- </a> -->
+
+                                </li>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <img src="./img/bhd-chinhanh5.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameBHD">BHD Star</span>
+                                                <span class="cinem-adress">
+                                                    - Vincom Quang Trung
+                                                </span>
+                                                <p class="full--adress">
+                                                    B1-Vincom QT, 190 Quang Trung, Gò Vấp
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <!-- </a> -->
+
+                                </li>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <img src="./img/bhd-chinhanh4.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameBHD">BHD Star</span>
+                                                <span class="cinem-adress">
+                                                    - Vincom Lê Văn Việt
+                                                </span>
+                                                <p class="full--adress">
+                                                    L4-Vincom Plaza, 50 Lê Văn Việt, Q.9
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <!-- </a> -->
+
+                                </li>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <img src="./img/bhd-chinhanh2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameBHD">BHD Star</span>
+                                                <span class="cinem-adress">
+                                                    - IMC Trần Quang Khải
+                                                </span>
+                                                <p class="full--adress">Tầng 2 & 3, Trung Tâm Văn Hóa Đa Năng, 62 Trần
+                                                    Quang Khải, P. Tân Định, Q. 1
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <!-- </a> -->
+
+                                </li>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <img src="./img/bhd-chinhanh7.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameBHD">BHD Star</span>
+                                                <span class="cinem-adress">
+                                                    - Liberty Citypoint
+                                                </span>
+                                                <p class="full--adress">Tầng M - 1, khách sạn Liberty Center Saigon
+                                                    Citypoint, 59 - 61 Pasteur, Quận 1
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <!-- </a> -->
+
+                                </li>
+
+                            </ul>
+                        </div>
                         <!-- end tab-pane bhd -->
 
 
                         <div class="tab-pane fade" id="nav-galaxy" role="tabpanel" aria-labelledby="nav-contact-tab">
-                            ...</div>
+                            <ul class="nav nav-tabs" id="showTimesTab">
+                                <li class="nav-item  link-tab active">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link active">
+                                                <img src="./img/galaxy-chinhanh1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameGLX">GLX</span>
+                                                <span class="cinem-adress">
+                                                    - Saigones Nguyễn Xí
+                                                </span>
+                                                <p class="full--adress">Tầng 4-5, Saigonres Plaza, 79/81 Nguyễn Xí, P
+                                                    26, Q Bình Thạnh
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <img src="./img/galaxy-chinhanh2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameGLX">GLX</span>
+                                                <span class="cinem-adress">
+                                                    - Pandora City
+                                                </span>
+                                                <p class="full--adress">Lầu 3, Pandora City 1/1 Trường Chinh Quận Tân
+                                                    Phú TP. Hồ Chí Minh
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <!-- </a> -->
+
+                                </li>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <img src="./img/galaxy-chinhanh3.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameGLX">GLX</span>
+                                                <span class="cinem-adress">
+                                                    - Parkson Đồng Khởi
+                                                </span>
+                                                <p class="full--adress">Tầng 5, số 35 bis-45, đường Lê Thánh Tôn, Phường
+                                                    Bến Nghé, Quận 1, Tp. Hồ Chí Minh, Việt Nam
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <!-- </a> -->
+
+                                </li>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <img src="./img/galaxy-chinhanh4.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameGLX">GLX</span>
+                                                <span class="cinem-adress">
+                                                    - Thảo Điền Pearl
+                                                </span>
+                                                <p class="full--adress">Tầng 2, Thảo Điền Mall, 12 Quốc Hương, Phường
+                                                    Thảo Điền, Quận 2, TP. Hồ Chí Minh
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <!-- </a> -->
+
+                                </li>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <img src="./img/galaxy-chinhanh5.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameGLX">GLX</span>
+                                                <span class="cinem-adress">
+                                                    - Satra Củ Chi
+                                                </span>
+                                                <p class="full--adress">Tầng 3, TTTM Satra Củ Chi, Số 1239, Tỉnh Lộ 8,
+                                                    Ấp Thạnh An, Xã Trung An, Huyện Củ Chi, TP.HCM
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <!-- </a> -->
+
+                                </li>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <img src="./img/galaxy-chinhanh6.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameGLX">GLX</span>
+                                                <span class="cinem-adress">
+                                                    - Aeon Tân Phú
+                                                </span>
+                                                <p class="full--adress">Lầu 3, Aeon Mall 30 Bờ Bao Tân Thắng, P. Sơn Kỳ
+                                                    Quận Tân Phú TP. Hồ Chí Minh
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <!-- </a> -->
+
+                                </li>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <img src="./img/galaxy-chinhanh7.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameGLX">GLX</span>
+                                                <span class="cinem-adress">
+                                                    - IMC Trần Quang Khải
+                                                </span>
+                                                <p class="full--adress">Tầng 2 & 3, Trung Tâm Văn Hóa Đa Năng, 62 Trần
+                                                    Quang Khải, P. Tân Định, Q. 1
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <!-- </a> -->
+
+                                </li>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <img src="./img/galaxy-chinhanh8.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameGLX">GLX</span>
+                                                <span class="cinem-adress">
+                                                    - Liberty Citypoint
+                                                </span>
+                                                <p class="full--adress">Tầng M - 1, khách sạn Liberty Center Saigon
+                                                    Citypoint, 59 - 61 Pasteur, Quận 1
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <!-- </a> -->
+
+                                </li>
+
+                            </ul>
+                        </div>
+
+                        <div class="tab-pane fade" id="nav-cinestar" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            <ul class="nav nav-tabs" id="showTimesTab">
+                                <li class="nav-item  link-tab active">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link active">
+                                                <img src="./img/cinestar-chinhanh1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameCNS">CNS</span>
+                                                <span class="cinem-adress">
+                                                    - Saigones Nguyễn Xí
+                                                </span>
+                                                <p class="full--adress">Tầng 4-5, Saigonres Plaza, 79/81 Nguyễn Xí, P
+                                                    26, Q Bình Thạnh
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <img src="./img/cinestar-chinhanh2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameCNS">CNS</span>
+                                                <span class="cinem-adress">
+                                                    - Pandora City
+                                                </span>
+                                                <p class="full--adress">Lầu 3, Pandora City 1/1 Trường Chinh Quận Tân
+                                                    Phú TP. Hồ Chí Minh
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <!-- </a> -->
+
+                                </li>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <img src="./img/galaxy-chinhanh3.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameCNS">CNS</span>
+                                                <span class="cinem-adress">
+                                                    - Parkson Đồng Khởi
+                                                </span>
+                                                <p class="full--adress">Tầng 5, số 35 bis-45, đường Lê Thánh Tôn, Phường
+                                                    Bến Nghé, Quận 1, Tp. Hồ Chí Minh, Việt Nam
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <!-- </a> -->
+
+                                </li>
+                               
+
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="nav-ccd" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            <ul class="nav nav-tabs" id="showTimesTab">
+                                <li class="nav-item  link-tab active">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link active">
+                                                <img src="./img/ddc-chinhanh1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameCCD">CCD</span>
+                                                <span class="cinem-adress">
+                                                    - Saigones Nguyễn Xí
+                                                </span>
+                                                <p class="full--adress">Tầng 4-5, Saigonres Plaza, 79/81 Nguyễn Xí, P
+                                                    26, Q Bình Thạnh
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="nav-mega" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            <ul class="nav nav-tabs" id="showTimesTab">
+                                <li class="nav-item  link-tab active">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link active">
+                                                <img src="./img/ddc-chinhanh1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameMEGA">MegaGS</span>
+                                                <span class="cinem-adress">
+                                                    - Saigones Nguyễn Xí
+                                                </span>
+                                                <p class="full--adress">Tầng 4-5, Saigonres Plaza, 79/81 Nguyễn Xí, P
+                                                    26, Q Bình Thạnh
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="nav-dcine" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            <ul class="nav nav-tabs" id="showTimesTab">
+                                <li class="nav-item  link-tab active">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link active">
+                                                <img src="./img/dcine-chinhanh1.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameDcine">DCine</span>
+                                                <span class="cinem-adress">
+                                                    - Saigones Nguyễn Xí
+                                                </span>
+                                                <p class="full--adress">Tầng 4-5, Saigonres Plaza, 79/81 Nguyễn Xí, P
+                                                    26, Q Bình Thạnh
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="nav-lotte" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <ul class="nav nav-tabs" id="showTimesTab">
+                                <li class="nav-item  link-tab active">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link active">
+                                                <img src="./img/lotte-chinhanh1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameLotte">Lotte Star</span>
+                                                <span class="cinem-adress">
+                                                    - Bitexco    
+                                                </span>
+                                                <p class="full--adress">L3-Bitexco Icon 68, 2 Hải Triều, Q.1
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <img src="./img/lotte-chinhanh2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameLotte">Lotte Star</span>
+                                                <span class="cinem-adress">
+                                                    - Vincom Thảo Điền
+                                                </span>
+                                                <p class="full--adress">L5-Megamall, 159 XL Hà Nội, Q.2
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <!-- </a> -->
+
+                                </li>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <img src="./img/lotte-chinhanh3.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameLotte">Lotte Star</span>
+                                                <span class="cinem-adress">  
+                                                    - Vincom 3/2
+                                                </span>
+                                                <p class="full--adress">
+                                                    L5-Vincom 3/2, 3C Đường 3/2, Q.10
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <!-- </a> -->
+
+                                </li>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <img src="./img/lotte-chinhanh4.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameLotte">Lotte Star</span>
+                                                <span class="cinem-adress">
+                                                    - Phạm Hùng
+                                                </span>
+                                                <p class="full--adress">
+                                                    L4-Satra Phạm Hùng, C6/27 Phạm Hùng, Bình Chánh
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <!-- </a> -->
+
+                                </li>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <img src="./img/lotte-chinhanh5.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameLotte">Lotte Star</span>
+                                                <span class="cinem-adress">
+                                                    - Vincom Quang Trung
+                                                </span>
+                                                <p class="full--adress">
+                                                    B1-Vincom QT, 190 Quang Trung, Gò Vấp
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <!-- </a> -->
+
+                                </li>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <img src="./img/lotte-chinhanh4.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameLotte">Lotte Star</span>
+                                                <span class="cinem-adress">
+                                                    - Vincom Lê Văn Việt
+                                                </span>
+                                                <p class="full--adress">
+                                                    L4-Vincom Plaza, 50 Lê Văn Việt, Q.9
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <!-- </a> -->
+
+                                </li>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <img src="./img/lotte-chinhanh2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameLotte">Lotte Star</span>
+                                                <span class="cinem-adress">
+                                                    - IMC Trần Quang Khải
+                                                </span>
+                                                <p class="full--adress">Tầng 2 & 3, Trung Tâm Văn Hóa Đa Năng, 62 Trần
+                                                    Quang Khải, P. Tân Định, Q. 1
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <!-- </a> -->
+
+                                </li>
+                                <li class="nav-item link-tab">
+                                    <div class="showTime__cinema--branch">
+                                        <div class="showTime__cinema--img">
+                                            <a href="#nav-cgv-times-2" class="nav-link">
+                                                <img src="./img/lotte-chinhanh1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="showTime--branch-text">
+                                            <a href="#nav-cgv-times-1" class="nav-link">
+                                                <span class="cinema--nameLotte">Lotte Star</span>
+                                                <span class="cinem-adress">
+                                                    - Liberty Citypoint
+                                                </span>
+                                                <p class="full--adress">Tầng M - 1, khách sạn Liberty Center Saigon
+                                                    Citypoint, 59 - 61 Pasteur, Quận 1
+                                                </p>
+                                                <a href="#">[chi tiết]</a>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <!-- </a> -->
+
+                                </li>
+
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-7 colum">
+                <div class=" colum colum-3">
                     <div class="tab-content" id="nav-tabContent">
                         <div class="tab-pane fade show active" id="nav-cgv-times-1" role="tabpanel"
                             aria-labelledby="nav-home-tab">
+                            <div class="showTimes__openingTime">
+                                <div class="showTimes__title">
+                                    <div class="showTimes__title--img">
+                                        <img src="./img/movie2.png" alt="ban dao">
+                                    </div>
+                                    <div class="showTimes__title--text">
+                                        <p class="movie-name"><span>C18</span> Bán Đảo - Peninsula - </p>
+                                        <p class="movie-time">116 phút - TIX 8.6 - IMDb 0</p>
+                                    </div>
+                                </div>
+                                <div class="showTimes__sessions">
+                                    <div class="showTimes__sessions--list">
+                                        <p class="version">2D Digital | 4DX</p>
+                                        <div class="sessions">
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
 
-                            <h1>Đây là nội dung 1</h1>
+                            </div>
+                            <div class="showTimes__openingTime">
+                                <div class="showTimes__title">
+                                    <div class="showTimes__title--img">
+                                        <img src="./img/movie2.png" alt="ban dao">
+                                    </div>
+                                    <div class="showTimes__title--text">
+                                        <p class="movie-name"><span>C18</span> Bán Đảo - Peninsula - </p>
+                                        <p class="movie-time">116 phút - TIX 8.6 - IMDb 0</p>
+                                    </div>
+                                </div>
+                                <div class="showTimes__sessions">
+                                    <div class="showTimes__sessions--list">
+                                        <p class="version">2D Digital | 4DX</p>
+                                        <div class="sessions">
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="showTimes__openingTime">
+                                <div class="showTimes__title">
+                                    <div class="showTimes__title--img">
+                                        <img src="./img/movie2.png" alt="ban dao">
+                                    </div>
+                                    <div class="showTimes__title--text">
+                                        <p class="movie-name"><span>C18</span> Bán Đảo - Peninsula - </p>
+                                        <p class="movie-time">116 phút - TIX 8.6 - IMDb 0</p>
+                                    </div>
+                                </div>
+                                <div class="showTimes__sessions">
+                                    <div class="showTimes__sessions--list">
+                                        <p class="version">2D Digital | 4DX</p>
+                                        <div class="sessions">
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
 
                         </div>
-                        <div class="tab-pane fade" id="nav-cgv-times-2">
-                            <h2>Đây là nội dung 2</h2>
+
+                        <div class="tab-pane fade" id="nav-cgv-times-2" role="tabpanel"
+                            aria-labelledby="nav-home-tab">
+                            <div class="showTimes__openingTime">
+                                <div class="showTimes__title">
+                                    <div class="showTimes__title--img">
+                                        <img src="./img/movie2.png" alt="ban dao">
+                                    </div>
+                                    <div class="showTimes__title--text">
+                                        <p class="movie-name"><span>C18</span> Bán Đảo - Peninsula - </p>
+                                        <p class="movie-time">116 phút - TIX 8.6 - IMDb 0</p>
+                                    </div>
+                                </div>
+                                <div class="showTimes__sessions">
+                                    <div class="showTimes__sessions--list">
+                                        <p class="version">2D Digital | 4DX</p>
+                                        <div class="sessions">
+                                            <a href="#"><span>10:20</span> ~ 13:16
+                                            </a>
+                                            <a href="#"><span>11:20</span> ~ 14:16
+                                            </a>
+                                            <a href="#"><span>12:20</span> ~ 15:16
+                                            </a>
+                                            <a href="#"><span>13:20</span> ~ 16:16
+                                            </a>
+                                            <a href="#"><span>14:20</span> ~ 17:30
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 19:20
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="showTimes__openingTime">
+                                <div class="showTimes__title">
+                                    <div class="showTimes__title--img">
+                                        <img src="./img/movie2.png" alt="ban dao">
+                                    </div>
+                                    <div class="showTimes__title--text">
+                                        <p class="movie-name"><span>C18</span> Bán Đảo - Peninsula - </p>
+                                        <p class="movie-time">116 phút - TIX 8.6 - IMDb 0</p>
+                                    </div>
+                                </div>
+                                <div class="showTimes__sessions">
+                                    <div class="showTimes__sessions--list">
+                                        <p class="version">2D Digital | 4DX</p>
+                                        <div class="sessions">
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="showTimes__openingTime">
+                                <div class="showTimes__title">
+                                    <div class="showTimes__title--img">
+                                        <img src="./img/movie2.png" alt="ban dao">
+                                    </div>
+                                    <div class="showTimes__title--text">
+                                        <p class="movie-name"><span>C18</span> Bán Đảo - Peninsula - </p>
+                                        <p class="movie-time">116 phút - TIX 8.6 - IMDb 0</p>
+                                    </div>
+                                </div>
+                                <div class="showTimes__sessions">
+                                    <div class="showTimes__sessions--list">
+                                        <p class="version">2D Digital | 4DX</p>
+                                        <div class="sessions">
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
                         </div>
-                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                            ...</div>
+                        
+                        <div class="tab-pane fade" id="nav-cgv-times-3" role="tabpanel"
+                            aria-labelledby="nav-home-tab">
+                            <div class="showTimes__openingTime">
+                                <div class="showTimes__title">
+                                    <div class="showTimes__title--img">
+                                        <img src="./img/movie2.png" alt="ban dao">
+                                    </div>
+                                    <div class="showTimes__title--text">
+                                        <p class="movie-name"><span>C18</span> Bán Đảo - Peninsula - </p>
+                                        <p class="movie-time">116 phút - TIX 8.6 - IMDb 0</p>
+                                    </div>
+                                </div>
+                                <div class="showTimes__sessions">
+                                    <div class="showTimes__sessions--list">
+                                        <p class="version">2D Digital | 4DX</p>
+                                        <div class="sessions">
+                                            <a href="#"><span>10:20</span> ~ 13:16
+                                            </a>
+                                            <a href="#"><span>11:20</span> ~ 14:16
+                                            </a>
+                                            <a href="#"><span>12:20</span> ~ 15:16
+                                            </a>
+                                            <a href="#"><span>13:20</span> ~ 16:16
+                                            </a>
+                                            <a href="#"><span>14:20</span> ~ 17:30
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 19:20
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="showTimes__openingTime">
+                                <div class="showTimes__title">
+                                    <div class="showTimes__title--img">
+                                        <img src="./img/movie2.png" alt="ban dao">
+                                    </div>
+                                    <div class="showTimes__title--text">
+                                        <p class="movie-name"><span>C18</span> Bán Đảo - Peninsula - </p>
+                                        <p class="movie-time">116 phút - TIX 8.6 - IMDb 0</p>
+                                    </div>
+                                </div>
+                                <div class="showTimes__sessions">
+                                    <div class="showTimes__sessions--list">
+                                        <p class="version">2D Digital | 4DX</p>
+                                        <div class="sessions">
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="showTimes__openingTime">
+                                <div class="showTimes__title">
+                                    <div class="showTimes__title--img">
+                                        <img src="./img/movie2.png" alt="ban dao">
+                                    </div>
+                                    <div class="showTimes__title--text">
+                                        <p class="movie-name"><span>C18</span> Bán Đảo - Peninsula - </p>
+                                        <p class="movie-time">116 phút - TIX 8.6 - IMDb 0</p>
+                                    </div>
+                                </div>
+                                <div class="showTimes__sessions">
+                                    <div class="showTimes__sessions--list">
+                                        <p class="version">2D Digital | 4DX</p>
+                                        <div class="sessions">
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="nav-cgv-times-4" role="tabpanel"
+                            aria-labelledby="nav-home-tab">
+                            <div class="showTimes__openingTime">
+                                <div class="showTimes__title">
+                                    <div class="showTimes__title--img">
+                                        <img src="./img/movie2.png" alt="ban dao">
+                                    </div>
+                                    <div class="showTimes__title--text">
+                                        <p class="movie-name"><span>C18</span> Bán Đảo - Peninsula - </p>
+                                        <p class="movie-time">116 phút - TIX 8.6 - IMDb 0</p>
+                                    </div>
+                                </div>
+                                <div class="showTimes__sessions">
+                                    <div class="showTimes__sessions--list">
+                                        <p class="version">2D Digital | 4DX</p>
+                                        <div class="sessions">
+                                            <a href="#"><span>10:20</span> ~ 13:16
+                                            </a>
+                                            <a href="#"><span>11:20</span> ~ 14:16
+                                            </a>
+                                            <a href="#"><span>12:20</span> ~ 15:16
+                                            </a>
+                                            <a href="#"><span>13:20</span> ~ 16:16
+                                            </a>
+                                            <a href="#"><span>14:20</span> ~ 17:30
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 19:20
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="showTimes__openingTime">
+                                <div class="showTimes__title">
+                                    <div class="showTimes__title--img">
+                                        <img src="./img/movie2.png" alt="ban dao">
+                                    </div>
+                                    <div class="showTimes__title--text">
+                                        <p class="movie-name"><span>C18</span> Bán Đảo - Peninsula - </p>
+                                        <p class="movie-time">116 phút - TIX 8.6 - IMDb 0</p>
+                                    </div>
+                                </div>
+                                <div class="showTimes__sessions">
+                                    <div class="showTimes__sessions--list">
+                                        <p class="version">2D Digital | 4DX</p>
+                                        <div class="sessions">
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="showTimes__openingTime">
+                                <div class="showTimes__title">
+                                    <div class="showTimes__title--img">
+                                        <img src="./img/movie2.png" alt="ban dao">
+                                    </div>
+                                    <div class="showTimes__title--text">
+                                        <p class="movie-name"><span>C18</span> Bán Đảo - Peninsula - </p>
+                                        <p class="movie-time">116 phút - TIX 8.6 - IMDb 0</p>
+                                    </div>
+                                </div>
+                                <div class="showTimes__sessions">
+                                    <div class="showTimes__sessions--list">
+                                        <p class="version">2D Digital | 4DX</p>
+                                        <div class="sessions">
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="nav-cgv-times-5" role="tabpanel"
+                            aria-labelledby="nav-home-tab">
+                            <div class="showTimes__openingTime">
+                                <div class="showTimes__title">
+                                    <div class="showTimes__title--img">
+                                        <img src="./img/movie2.png" alt="ban dao">
+                                    </div>
+                                    <div class="showTimes__title--text">
+                                        <p class="movie-name"><span>C18</span> Bán Đảo - Peninsula - </p>
+                                        <p class="movie-time">116 phút - TIX 8.6 - IMDb 0</p>
+                                    </div>
+                                </div>
+                                <div class="showTimes__sessions">
+                                    <div class="showTimes__sessions--list">
+                                        <p class="version">2D Digital | 4DX</p>
+                                        <div class="sessions">
+                                            <a href="#"><span>10:20</span> ~ 13:16
+                                            </a>
+                                            <a href="#"><span>11:20</span> ~ 14:16
+                                            </a>
+                                            <a href="#"><span>12:20</span> ~ 15:16
+                                            </a>
+                                            <a href="#"><span>13:20</span> ~ 16:16
+                                            </a>
+                                            <a href="#"><span>14:20</span> ~ 17:30
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 19:20
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="showTimes__openingTime">
+                                <div class="showTimes__title">
+                                    <div class="showTimes__title--img">
+                                        <img src="./img/movie2.png" alt="ban dao">
+                                    </div>
+                                    <div class="showTimes__title--text">
+                                        <p class="movie-name"><span>C18</span> Bán Đảo - Peninsula - </p>
+                                        <p class="movie-time">116 phút - TIX 8.6 - IMDb 0</p>
+                                    </div>
+                                </div>
+                                <div class="showTimes__sessions">
+                                    <div class="showTimes__sessions--list">
+                                        <p class="version">2D Digital | 4DX</p>
+                                        <div class="sessions">
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="showTimes__openingTime">
+                                <div class="showTimes__title">
+                                    <div class="showTimes__title--img">
+                                        <img src="./img/movie2.png" alt="ban dao">
+                                    </div>
+                                    <div class="showTimes__title--text">
+                                        <p class="movie-name"><span>C18</span> Bán Đảo - Peninsula - </p>
+                                        <p class="movie-time">116 phút - TIX 8.6 - IMDb 0</p>
+                                    </div>
+                                </div>
+                                <div class="showTimes__sessions">
+                                    <div class="showTimes__sessions--list">
+                                        <p class="version">2D Digital | 4DX</p>
+                                        <div class="sessions">
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="nav-cgv-times-6" role="tabpanel"
+                            aria-labelledby="nav-home-tab">
+                            <div class="showTimes__openingTime">
+                                <div class="showTimes__title">
+                                    <div class="showTimes__title--img">
+                                        <img src="./img/movie2.png" alt="ban dao">
+                                    </div>
+                                    <div class="showTimes__title--text">
+                                        <p class="movie-name"><span>C18</span> Bán Đảo - Peninsula - </p>
+                                        <p class="movie-time">116 phút - TIX 8.6 - IMDb 0</p>
+                                    </div>
+                                </div>
+                                <div class="showTimes__sessions">
+                                    <div class="showTimes__sessions--list">
+                                        <p class="version">2D Digital | 4DX</p>
+                                        <div class="sessions">
+                                            <a href="#"><span>10:20</span> ~ 13:16
+                                            </a>
+                                            <a href="#"><span>11:20</span> ~ 14:16
+                                            </a>
+                                            <a href="#"><span>12:20</span> ~ 15:16
+                                            </a>
+                                            <a href="#"><span>13:20</span> ~ 16:16
+                                            </a>
+                                            <a href="#"><span>14:20</span> ~ 17:30
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 19:20
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="showTimes__openingTime">
+                                <div class="showTimes__title">
+                                    <div class="showTimes__title--img">
+                                        <img src="./img/movie2.png" alt="ban dao">
+                                    </div>
+                                    <div class="showTimes__title--text">
+                                        <p class="movie-name"><span>C18</span> Bán Đảo - Peninsula - </p>
+                                        <p class="movie-time">116 phút - TIX 8.6 - IMDb 0</p>
+                                    </div>
+                                </div>
+                                <div class="showTimes__sessions">
+                                    <div class="showTimes__sessions--list">
+                                        <p class="version">2D Digital | 4DX</p>
+                                        <div class="sessions">
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="showTimes__openingTime">
+                                <div class="showTimes__title">
+                                    <div class="showTimes__title--img">
+                                        <img src="./img/movie2.png" alt="ban dao">
+                                    </div>
+                                    <div class="showTimes__title--text">
+                                        <p class="movie-name"><span>C18</span> Bán Đảo - Peninsula - </p>
+                                        <p class="movie-time">116 phút - TIX 8.6 - IMDb 0</p>
+                                    </div>
+                                </div>
+                                <div class="showTimes__sessions">
+                                    <div class="showTimes__sessions--list">
+                                        <p class="version">2D Digital | 4DX</p>
+                                        <div class="sessions">
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="nav-cgv-times-7" role="tabpanel"
+                            aria-labelledby="nav-home-tab">
+                            <div class="showTimes__openingTime">
+                                <div class="showTimes__title">
+                                    <div class="showTimes__title--img">
+                                        <img src="./img/movie2.png" alt="ban dao">
+                                    </div>
+                                    <div class="showTimes__title--text">
+                                        <p class="movie-name"><span>C18</span> Bán Đảo - Peninsula - </p>
+                                        <p class="movie-time">116 phút - TIX 8.6 - IMDb 0</p>
+                                    </div>
+                                </div>
+                                <div class="showTimes__sessions">
+                                    <div class="showTimes__sessions--list">
+                                        <p class="version">2D Digital | 4DX</p>
+                                        <div class="sessions">
+                                            <a href="#"><span>10:20</span> ~ 13:16
+                                            </a>
+                                            <a href="#"><span>11:20</span> ~ 14:16
+                                            </a>
+                                            <a href="#"><span>12:20</span> ~ 15:16
+                                            </a>
+                                            <a href="#"><span>13:20</span> ~ 16:16
+                                            </a>
+                                            <a href="#"><span>14:20</span> ~ 17:30
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 19:20
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="showTimes__openingTime">
+                                <div class="showTimes__title">
+                                    <div class="showTimes__title--img">
+                                        <img src="./img/movie2.png" alt="ban dao">
+                                    </div>
+                                    <div class="showTimes__title--text">
+                                        <p class="movie-name"><span>C18</span> Bán Đảo - Peninsula - </p>
+                                        <p class="movie-time">116 phút - TIX 8.6 - IMDb 0</p>
+                                    </div>
+                                </div>
+                                <div class="showTimes__sessions">
+                                    <div class="showTimes__sessions--list">
+                                        <p class="version">2D Digital | 4DX</p>
+                                        <div class="sessions">
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="showTimes__openingTime">
+                                <div class="showTimes__title">
+                                    <div class="showTimes__title--img">
+                                        <img src="./img/movie2.png" alt="ban dao">
+                                    </div>
+                                    <div class="showTimes__title--text">
+                                        <p class="movie-name"><span>C18</span> Bán Đảo - Peninsula - </p>
+                                        <p class="movie-time">116 phút - TIX 8.6 - IMDb 0</p>
+                                    </div>
+                                </div>
+                                <div class="showTimes__sessions">
+                                    <div class="showTimes__sessions--list">
+                                        <p class="version">2D Digital | 4DX</p>
+                                        <div class="sessions">
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="nav-cgv-times-8" role="tabpanel"
+                            aria-labelledby="nav-home-tab">
+                            <div class="showTimes__openingTime">
+                                <div class="showTimes__title">
+                                    <div class="showTimes__title--img">
+                                        <img src="./img/movie2.png" alt="ban dao">
+                                    </div>
+                                    <div class="showTimes__title--text">
+                                        <p class="movie-name"><span>C18</span> Bán Đảo - Peninsula - </p>
+                                        <p class="movie-time">116 phút - TIX 8.6 - IMDb 0</p>
+                                    </div>
+                                </div>
+                                <div class="showTimes__sessions">
+                                    <div class="showTimes__sessions--list">
+                                        <p class="version">2D Digital | 4DX</p>
+                                        <div class="sessions">
+                                            <a href="#"><span>10:20</span> ~ 13:16
+                                            </a>
+                                            <a href="#"><span>11:20</span> ~ 14:16
+                                            </a>
+                                            <a href="#"><span>12:20</span> ~ 15:16
+                                            </a>
+                                            <a href="#"><span>13:20</span> ~ 16:16
+                                            </a>
+                                            <a href="#"><span>14:20</span> ~ 17:30
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 19:20
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="showTimes__openingTime">
+                                <div class="showTimes__title">
+                                    <div class="showTimes__title--img">
+                                        <img src="./img/movie2.png" alt="ban dao">
+                                    </div>
+                                    <div class="showTimes__title--text">
+                                        <p class="movie-name"><span>C18</span> Bán Đảo - Peninsula - </p>
+                                        <p class="movie-time">116 phút - TIX 8.6 - IMDb 0</p>
+                                    </div>
+                                </div>
+                                <div class="showTimes__sessions">
+                                    <div class="showTimes__sessions--list">
+                                        <p class="version">2D Digital | 4DX</p>
+                                        <div class="sessions">
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="showTimes__openingTime">
+                                <div class="showTimes__title">
+                                    <div class="showTimes__title--img">
+                                        <img src="./img/movie2.png" alt="ban dao">
+                                    </div>
+                                    <div class="showTimes__title--text">
+                                        <p class="movie-name"><span>C18</span> Bán Đảo - Peninsula - </p>
+                                        <p class="movie-time">116 phút - TIX 8.6 - IMDb 0</p>
+                                    </div>
+                                </div>
+                                <div class="showTimes__sessions">
+                                    <div class="showTimes__sessions--list">
+                                        <p class="version">2D Digital | 4DX</p>
+                                        <div class="sessions">
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                            <a href="#"><span>15:20</span> ~ 17:16
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -479,6 +2039,13 @@
         $("ul.nav-tabs a").click(function (e) {
             e.preventDefault();
             $(this).tab('show');
+        });
+    </script>
+    <!-- add class active vào thẻ li (của bootstrap là thẻ a) -->
+    <script>
+        $("ul.nav-tabs li.nav-item").click(function () {
+            $(this).addClass('active').siblings().removeClass('active');
+
         });
     </script>
     <!-- END BOOTSTRAP -->
