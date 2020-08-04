@@ -100,12 +100,13 @@ html, body {
 }
 
 .showTimes {
-  padding: 30px 0;
+  margin: 30px 0;
 }
 
 .showTimes .colum {
   border: 1px solid #ebebec;
   padding: 0;
+  max-height: 667px;
 }
 
 .showTimes .colum-1 {
@@ -116,10 +117,12 @@ html, body {
 
 .showTimes .colum-2 {
   width: 40%;
+  overflow-y: scroll;
 }
 
 .showTimes .colum-3 {
   width: calc(60% - 92px);
+  overflow-y: scroll;
 }
 
 .showTimes .nav-tabs {
@@ -285,7 +288,14 @@ html, body {
 }
 
 .showTimes .showTimes__openingTime .showTimes__title--img {
+  width: 60px;
+  height: 60px;
   margin-right: 10px;
+}
+
+.showTimes .showTimes__openingTime .showTimes__title--img img {
+  width: 100%;
+  height: 100%;
 }
 
 .showTimes .showTimes__openingTime .showTimes__title--text {

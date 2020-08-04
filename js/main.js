@@ -12,10 +12,3 @@ for (let i = 0; i < ticket.length; i++) {
     }
   });
 }
-var linkTab = document.querySelectorAll('.link-tab');
-for (let i = 0; i < linkTab.length; i++) {
-    linkTab[i].addEventListener('click', function(){
-      console.log(i);
-      location.href  = '#nav-cgv-times-2';
-    })
-}
