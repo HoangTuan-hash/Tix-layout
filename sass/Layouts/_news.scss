@@ -4,6 +4,8 @@
     margin-top: 50px;
     .news__content{
         .news__title{
+            z-index: unset;
+            padding:10px 0;
             .news__custom{
                 margin: 0 auto;
                 display: flex;
@@ -15,19 +17,16 @@
                     .nav-link{
                         border-bottom: 0;
                         transition: all .5s;
-                        a{
-                            @include styleText($color-black-2,$fs-5,$fw-bold-1);
-                            &:hover{
-                                @include styleText($color-organe-0,$fs-3,$fw-bold-1);
-                            }
-                            &:active{
-                                @include styleText($color-organe-0,$fs-3,$fw-bold-1);
-                            }
-                            &:focus{
-                                @include styleText($color-organe-0,$fs-3,$fw-bold-1);
-                            }
+                        @include styleText($color-black-2,$fs-5,$fw-bold-1);
+                        &:hover{
+                            @include styleText($color-organe-0,$fs-3,$fw-bold-1);
                         }
-                        
+                        &.active{
+                            @include styleText($color-organe-0,$fs-3,$fw-bold-1);
+                        }
+                        &:focus{
+                            @include styleText($color-organe-0,$fs-3,$fw-bold-1);
+                        }
                     }
                 }
             }
@@ -96,6 +95,25 @@
                 }
             }
             
+        }
+        .btn-White{
+            font-size: 14px;
+            color: #949494;
+            border: 1px solid #949494;
+            border-radius: 4px;
+            text-align: center;
+            background: 0 0;
+            padding: 7px 25px;
+            transition: all .2s;
+            margin: auto;
+            margin-top: 35px;
+            margin-bottom: 20px;
+            display: block;
+            &:hover{
+                color: $color-white-0;
+                background-color: $color-organe-0;
+                border: 1px solid $color-organe-0;
+            }
         }
     }
 }

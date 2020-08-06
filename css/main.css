@@ -63,33 +63,38 @@ header {
   box-shadow: 0 0 3px 0 #4a4a4a;
 }
 
-header img {
+header .header__custom img {
   width: 60%;
 }
 
-header #movieNavbar .navbar-light .navbar-nav .nav-link {
+header .header__custom #movieNavbar .navbar-light .navbar-nav .nav-link {
   color: #000;
   font-size: 14px;
   font-weight: normal;
 }
 
-header #movieNavbar .navbar-light .navbar-nav:hover {
+header .header__custom #movieNavbar .navbar-light .navbar-nav:hover {
   color: #fb4226;
 }
 
-header #movieNavbar a {
+header .header__custom #movieNavbar a {
   color: #000;
   font-size: 14px;
   font-weight: normal;
   display: flex;
   align-items: center;
+  transition: all .5s;
 }
 
-header #movieNavbar a .icon__login {
+header .header__custom #movieNavbar a .icon__login {
   margin-right: 10px;
   color: #949494;
   font-size: 40px;
   font-weight: normal;
+}
+
+header .header__custom #movieNavbar a:hover {
+  color: #ca4137;
 }
 
 .ticket {
@@ -475,6 +480,11 @@ header #movieNavbar a .icon__login {
   margin-top: 50px;
 }
 
+.news .news__content .news__title {
+  z-index: unset;
+  padding: 10px 0;
+}
+
 .news .news__content .news__title .news__custom {
   margin: 0 auto;
   display: flex;
@@ -490,27 +500,24 @@ header #movieNavbar a .icon__login {
 .news .news__content .news__title .news__custom .nav-item .nav-link {
   border-bottom: 0;
   transition: all .5s;
-}
-
-.news .news__content .news__title .news__custom .nav-item .nav-link a {
   color: #000;
   font-size: 20px;
   font-weight: 700;
 }
 
-.news .news__content .news__title .news__custom .nav-item .nav-link a:hover {
+.news .news__content .news__title .news__custom .nav-item .nav-link:hover {
   color: #fb4226;
   font-size: 18px;
   font-weight: 700;
 }
 
-.news .news__content .news__title .news__custom .nav-item .nav-link a:active {
+.news .news__content .news__title .news__custom .nav-item .nav-link.active {
   color: #fb4226;
   font-size: 18px;
   font-weight: 700;
 }
 
-.news .news__content .news__title .news__custom .nav-item .nav-link a:focus {
+.news .news__content .news__title .news__custom .nav-item .nav-link:focus {
   color: #fb4226;
   font-size: 18px;
   font-weight: 700;
@@ -599,6 +606,27 @@ header #movieNavbar a .icon__login {
   color: #fb4226;
 }
 
+.news .news__content .btn-White {
+  font-size: 14px;
+  color: #949494;
+  border: 1px solid #949494;
+  border-radius: 4px;
+  text-align: center;
+  background: 0 0;
+  padding: 7px 25px;
+  transition: all .2s;
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.news .news__content .btn-White:hover {
+  color: #fff;
+  background-color: #fb4226;
+  border: 1px solid #fb4226;
+}
+
 footer {
   background-color: #222;
   padding-top: 50px;
@@ -666,6 +694,43 @@ footer .footer__content .footer__item .footer__social img {
   display: inline-block;
   width: 25%;
   margin-right: 15px;
+}
+
+footer hr {
+  background-color: #9b9b9b;
+}
+
+footer .footer__copyright .imgFooter {
+  padding-right: 0;
+}
+
+footer .footer__copyright .imgFooter img {
+  display: block;
+  width: 100%;
+  border-radius: 12px;
+}
+
+footer .footer__copyright .infoFooter {
+  padding: 0;
+}
+
+footer .footer__copyright .infoFooter h3 {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+footer .footer__copyright .infoFooter span {
+  display: block;
+  line-height: 1.8;
+  color: #949494;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+footer .footer__copyright .imgCongThuong img {
+  display: block;
+  width: 100%;
 }
 
 .tixCarousel {
