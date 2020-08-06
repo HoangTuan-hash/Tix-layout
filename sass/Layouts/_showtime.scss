@@ -13,6 +13,12 @@
     .colum-2 {
         width: 40%;
         overflow-y: scroll;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+        &:hover::-webkit-scrollbar {
+            display: block;
+        }
     }
     .colum-3 {
         width: calc(60% - 92px);

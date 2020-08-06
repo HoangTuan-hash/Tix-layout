@@ -207,6 +207,14 @@ header #movieNavbar a .icon__login {
   overflow-y: scroll;
 }
 
+.showTimes .colum-2::-webkit-scrollbar {
+  display: none;
+}
+
+.showTimes .colum-2:hover::-webkit-scrollbar {
+  display: block;
+}
+
 .showTimes .colum-3 {
   width: calc(60% - 92px);
   overflow-y: scroll;
