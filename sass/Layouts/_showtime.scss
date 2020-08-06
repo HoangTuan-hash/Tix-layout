@@ -36,7 +36,7 @@
                 border-color: rgba(238, 238, 238, 0.88);
             }
         }
-        
+
         .link-tab {
             padding: $pd-1 $pd-3;
         }
@@ -86,26 +86,26 @@
             .cinema--name {
                 @include styleText($color-organe-0, $fs-2, $fw-bold-1);
             }
-            .cinema--nameBHD{
-                @include styleText($color-green-1,$fs-2, $fw-bold-1);
+            .cinema--nameBHD {
+                @include styleText($color-green-1, $fs-2, $fw-bold-1);
             }
-            .cinema--nameGLX{
-                @include styleText($color-orange-1,$fs-2, $fw-bold-1);
+            .cinema--nameGLX {
+                @include styleText($color-orange-1, $fs-2, $fw-bold-1);
             }
-            .cinema--nameCNS{
-                @include styleText($color-violet-0,$fs-2, $fw-bold-1);
+            .cinema--nameCNS {
+                @include styleText($color-violet-0, $fs-2, $fw-bold-1);
             }
-            .cinema--nameCCD{
-                @include styleText($color-gray-5,$fs-2, $fw-bold-1);
+            .cinema--nameCCD {
+                @include styleText($color-gray-5, $fs-2, $fw-bold-1);
             }
-            .cinema--nameMEGA{
-                @include styleText($color-orange-2,$fs-2, $fw-bold-1);
+            .cinema--nameMEGA {
+                @include styleText($color-orange-2, $fs-2, $fw-bold-1);
             }
-            .cinema--nameDcine{
-                @include styleText($color-black-0,$fs-2, $fw-bold-1);
+            .cinema--nameDcine {
+                @include styleText($color-black-0, $fs-2, $fw-bold-1);
             }
-            .cinema--nameLotte{
-                @include styleText($color-orange-3,$fs-2, $fw-bold-1);
+            .cinema--nameLotte {
+                @include styleText($color-orange-3, $fs-2, $fw-bold-1);
             }
             .cinem-adress {
                 @include styleText($color-black-0, $fs-2, $fw-bold-1);
@@ -138,7 +138,7 @@
                 width: 60px;
                 height: 60px;
                 margin-right: $mg-1;
-                img{
+                img {
                     width: 100%;
                     height: 100%;
                 }
@@ -189,25 +189,26 @@
         }
     }
 }
-@include responsive('extra-large') {
+@include responsive("extra-large") {
     //content
-    .showTimes{
-        .showTimes__content{
+    .showTimes {
+        .showTimes__content {
             max-width: 1140px;
         }
     }
 }
-@include responsive('mid-medium') {
+@include responsive("mid-medium") {
     //content
-    .showTimes{
-      &__row{
-          display: block;
-          .colum{
-              margin-bottom: $mg-3;
-          }
-          .colum-2,.colum-3{
-              width: 100%;
-          }
-      }  
+    .showTimes {
+        &__row {
+            display: block;
+            .colum {
+                margin-bottom: $mg-3;
+            }
+            .colum-2,
+            .colum-3 {
+                width: 100%;
+            }
+        }
     }
 }
