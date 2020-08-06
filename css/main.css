@@ -236,6 +236,10 @@ header .header__custom #movieNavbar a:hover {
   opacity: 0.5;
 }
 
+.showTimes .nav-tabs .nav-item:hover {
+  opacity: 1;
+}
+
 .showTimes .nav-tabs .nav-item::after {
   content: "";
   position: absolute;
