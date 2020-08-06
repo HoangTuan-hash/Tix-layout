@@ -197,9 +197,17 @@
         }
     }
 }
-@include responsive('large') {
+@include responsive('mid-medium') {
     //content
-    // .showTimes{
-        
-    // }
+    .showTimes{
+      &__row{
+          display: block;
+          .colum{
+              margin-bottom: $mg-3;
+          }
+          .colum-2,.colum-3{
+              width: 100%;
+          }
+      }  
+    }
 }

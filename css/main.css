@@ -360,4 +360,16 @@ html, body {
     max-width: 1140px;
   }
 }
+
+@media screen and (max-width: 678px) {
+  .showTimes__row {
+    display: block;
+  }
+  .showTimes__row .colum {
+    margin-bottom: 20px;
+  }
+  .showTimes__row .colum-2, .showTimes__row .colum-3 {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=main.css.map */
