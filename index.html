@@ -9,7 +9,10 @@
     <!-- font -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <!-- cdn font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -63,7 +66,42 @@
     <!-- end header -->
 
     <!-- carousel Đình Hậu -->
-    <section class="carousel"></section>
+    <section class="tixCarousel">
+        <div class="tixCarousel__content">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="./img/carousel1.png" alt="">
+                    <div class="tixCarousel__text">
+                        <a><i class="fa fa-play"></i></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./img/carousel2.jpg" alt="">
+                    <div class="tixCarousel__text">
+                        <i class="fa fa-play"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./img/carousel3.jpg" alt="">
+                    <div class="tixCarousel__text">
+                        <i class="fa fa-play"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./img/carousel4.jpg" alt="">
+                    <div class="tixCarousel__text">
+                        <i class="fa fa-play"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./img/carousel5.png" alt="">
+                    <div class="tixCarousel__text">
+                        <i class="fa fa-play"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- end carousel -->
 
     <!-- ticket Tuấn võ -->
@@ -216,7 +254,663 @@
     <!-- end ticket -->
 
     <!-- movie Đình Hậu -->
-    <section class="movie"></section>
+    <section class="movie">
+        <class class="movie__content">
+            <div class="col">
+                <div class="myTab">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#dangChieu" role="tab"
+                                aria-controls="home" aria-selected="true">Đang Chiếu</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#sapChieu" role="tab"
+                                aria-controls="profile" aria-selected="false">Sắp Chiếu</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="dangChieu" role="tabpanel"
+                            aria-labelledby="home-tab">
+                            <div class="owl-carousel owl-theme container">
+                                <div class="movie__more card">
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu1.png" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Bán Đảo - Peninsula - (C18)</h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">5.3</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu2.jpg" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Bằng Chứng Vô Hình - (C18)</h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">6</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu3.jpg" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Đỉnh Mù Sương - Foggy Mountain - (C18)
+                                        </h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">7</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu4.png" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Tàn Tích Quỹ - Relic - (C18)</h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">8.8</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu5.png" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Hậu Duệ Thần Sấm - Mortal - (C18)</h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">5.6</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu6.png" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Yêu Nhau Mùa Ế - Low Season - (C18)</h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">6.5</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu7.png" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Bóng Ma Không Xác - Without A Body -
+                                            (C18)</h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">9</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu8.png" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Trò Chơi Chết Chóc - Check-in Shock -
+                                            (C18)</h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">8.1</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="movie__more card">
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu9.png" alt="Card image">
+                                        <h4 class="card-title"><span>P</span> Cuộc Phiêu Lưu Của Scoobycooby-doo! -
+                                            Scoob! - (P)</h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">5.3</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu10.png" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Ngôi đền kì quái - Pee Nak 2 - (C18)
+                                        </h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">5.3</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu11.png" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Phi Vụ Bảo Tố -Gibbson - (C18)</h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">5.3</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu12.png" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Đêm Sống Còn -Willes - (C18)</h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">5.3</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu13.png" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Tiếng Vọng Từ Địa Ngục - (C18)</h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">5.3</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu14.png" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Kẻ Xâm Nhập -Em Gái Mất Tích - (C18)
+                                        </h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">5.3</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu15.png" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Sói 100% -CourseLy - (C18)</h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">5.3</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+
+                                    </div>
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu16.png" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Ngước Nhìn Tôi - Eyes on Me - (C18)</h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">5.3</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="sapChieu" role="tabpanel" aria-labelledby="profile-tab">
+                            <div class="owl-carousel owl-theme container">
+                                <div class="movie__more card">
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu9.png" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Bán Đảo - Peninsula - (C18)</h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">5.3</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu10.png" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Bán Đảo - Peninsula - (C18)</h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">5.3</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu11.png" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Bán Đảo - Peninsula - (C18)</h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">5.3</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu12.png" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Bán Đảo - Peninsula - (C18)</h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">5.3</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu13.png" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Bán Đảo - Peninsula - (C18)</h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">5.3</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu14.png" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Bán Đảo - Peninsula - (C18)</h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">5.3</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu15.png" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Bán Đảo - Peninsula - (C18)</h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">5.3</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu16.png" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Bán Đảo - Peninsula - (C18)</h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">5.3</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="movie__more card">
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu1.png" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Bán Đảo - Peninsula - (C18)</h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">5.3</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu2.jpg" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Bán Đảo - Peninsula - (C18)</h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">5.3</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu3.jpg" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Bán Đảo - Peninsula - (C18)</h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">5.3</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu4.png" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Bán Đảo - Peninsula - (C18)</h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">5.3</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu5.png" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Bán Đảo - Peninsula - (C18)</h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">5.3</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu6.png" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Bán Đảo - Peninsula - (C18)</h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">5.3</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu7.png" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Bán Đảo - Peninsula - (C18)</h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">5.3</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                    <div class="movie__items">
+                                        <img class="card-img-top" src="./img/dangchieu8.png" alt="Card image">
+                                        <h4 class="card-title"><span>C18</span> Bán Đảo - Peninsula - (C18)</h4>
+                                        <div class="movie__time">
+                                            <p class="minute card-text">116 phút</p>
+                                        </div>
+                                        <div class="movie__review">
+                                            <p class="movie__point">5.3</p>
+                                            <p>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <div class="movie__buy">
+                                            <i class="go fa fa-play"></i>
+                                            <a href="">MUA VÉ</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </class>
+    </section>
     <!-- end movie -->
 
     <!-- showtimes Tuấn Võ -->
@@ -3385,7 +4079,44 @@
     <!-- end news -->
 
     <!-- apps Đình Hậu -->
-    <section class="app"></section>
+    <section class="app">
+        <div class="app__content">
+            <img src="./img/backapp.jpg" alt="">
+            <div class="app__items">
+                <div class="app__items-left">
+                    <h3>Ứng dụng tiện lợi dành cho
+                        người yêu điện ảnh</h3>
+                    <br> <br>
+                    <p>Không chỉ đặt vé, bạn còn có thể bình luận phim, chấm điểm rạp và đổi quà hấp dẫn.</p>
+                    <br>
+                    <a href="">App miễn phí - Tải về ngay!</a>
+                    <p>TIX có hai phiên bản <span>iOS</span> & <span>Android</span></p>
+                </div>
+                <div class="app__items-right">
+                    <img src="./img/iphone.png" alt="">
+                </div>
+                <div class="slides owl-carousel owl-theme">
+                    <div class="items">
+                        <img src="./img/app1.jpg" alt="">
+                    </div>
+                    <div class="items">
+                        <img src="./img/app2.jpg" alt="">
+                    </div>
+                    <div class="items">
+                        <img src="./img/app3.jpg" alt="">
+                    </div>
+                    <div class="items">
+                        <img src="./img/app4.jpg" alt="">
+                    </div>
+                    <div class="items">
+                        <img src="./img/app5.jpg" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
     <!-- end apps -->
 
     <!-- service Anh Tuấn -->
@@ -3584,6 +4315,26 @@
             $(selector).removeClass('active');
             $(this).addClass('active');
         });
+    </script>
+    <!-- owlCarousel -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            // margin:10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
     </script>
 
     <!-- END BOOTSTRAP -->

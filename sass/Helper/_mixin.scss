@@ -22,3 +22,17 @@
         @warn 'Screen khong ton tai';
     }
 }
+// ĐÌNH HẬU 
+@mixin styleText($color,$fs,$fw) {
+    color:$color;
+    font-size:$fs;
+    font-weight:$fw;
+}
+@mixin styleOwl($color,$fs,$fw){
+    position: absolute;
+    color: $color;
+    font-size: $fs;
+    font-weight: $fw;
+    bottom: 200px;
+    padding: 10px;
+}

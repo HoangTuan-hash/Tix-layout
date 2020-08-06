@@ -1,0 +1,71 @@
+.tixCarousel{
+    width: 100%;
+    margin: 0 auto;
+}
+.tixCarousel__content img{
+    display: block;
+    width: 100%;
+    height: 600px;  
+}
+.item{
+    position: relative;
+}
+.tixCarousel__text{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color:$color-white-0;
+}
+.tixCarousel i{
+    width: 100px;
+}
+.owl-dots{
+    position:absolute;
+    bottom:100px;
+    left: 50%;
+    transform:translateX(-50%);
+}
+.tixCarousel__content .owl-theme .owl-dots .owl-dot.active span{
+    background-color:$color-organe-0;
+}
+.tixCarousel__content .owl-theme .owl-dots .owl-dot:hover span{
+    background-color:$color-gray-3;
+}
+.owl-theme .owl-nav.disabled + .owl-dots {
+    /* margin-top: 10px; */
+    position: absolute;
+    bottom: 100px;
+    left: 50%px;
+}
+.owl-prev span{
+    @include styleOwl($color-gray-1,150px,$fw-light);
+    left: 0;
+}
+.owl-next span{
+    @include styleOwl($color-gray-1,150px,$fw-light);
+    right: 0;
+}
+.tixCarousel__text i{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid $color-white-1;
+    border-radius: 50%;
+    font-size: 30px;
+    height: 90px;
+    text-align: center;
+    width: 90px;
+    padding-top: 30px;
+    padding-left: 10px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.tixCarousel__content:hover i{
+    opacity: 1;
+}
+.tixCarousel__content i:hover{
+    opacity: 0.8;
+}
