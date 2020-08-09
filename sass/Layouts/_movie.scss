@@ -19,6 +19,7 @@
         .nav-item {
             margin: 0 auto;
             .nav-link {
+                // z-index: 9999;
                 font-size: 25px;
                 text-align: center;
                 border: none;
@@ -26,6 +27,7 @@
                 text-align: center;
                 color: $color-black-1;
                 &:hover {
+                    z-index: 9999;
                     font-size: 27px;
                     transition: all 0.5s;
                 }

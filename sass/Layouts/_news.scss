@@ -15,16 +15,20 @@
                 .nav-item{
                     display:block;
                     .nav-link{
+                        border: none;
                         border-bottom: 0;
                         transition: all .5s;
                         @include styleText($color-black-2,$fs-5,$fw-bold-1);
                         &:hover{
+                            // border: none;
                             @include styleText($color-organe-0,$fs-3,$fw-bold-1);
                         }
                         &.active{
+                            // border: none;
                             @include styleText($color-organe-0,$fs-3,$fw-bold-1);
                         }
                         &:focus{
+                            // border: none;
                             @include styleText($color-organe-0,$fs-3,$fw-bold-1);
                         }
                     }

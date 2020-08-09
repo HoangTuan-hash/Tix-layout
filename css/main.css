@@ -540,6 +540,7 @@ header .header__custom #movieNavbar a:hover {
 }
 
 .news .news__content .news__title .news__custom .nav-item .nav-link {
+  border: none;
   border-bottom: 0;
   -webkit-transition: all .5s;
   transition: all .5s;
@@ -871,6 +872,16 @@ footer .footer__copyright .imgCongThuong img {
   background-color: rgba(246, 246, 246, 0.5);
 }
 
+.tixCarousel #headerPopup {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.tixCarousel #headerPopup iframe {
+  width: 100%;
+  margin: 0 auto;
+}
+
 .movie {
   position: relative;
 }
@@ -901,6 +912,7 @@ footer .footer__copyright .imgCongThuong img {
 }
 
 .movie__content .nav-item .nav-link:hover {
+  z-index: 9999;
   font-size: 27px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
