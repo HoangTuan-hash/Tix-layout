@@ -12,12 +12,17 @@
             li {
                 margin: 0;
             }
+            .movie__go{
+                z-index: 9999;
+            }
         }
         // .tab-content{
         //     margin: 0;
         // }
         .nav-item {
             margin: 0 auto;
+            padding-top: 20px;
+            // z-index: 9999;
             .nav-link {
                 // z-index: 9999;
                 font-size: 25px;
@@ -27,11 +32,17 @@
                 text-align: center;
                 color: $color-black-1;
                 &:hover {
-                    z-index: 9999;
-                    font-size: 27px;
+                    // z-index: 9999;
+                    font-size: 23px;
                     transition: all 0.5s;
+                    color: $color-organe-0;
                 }
                 &:focus {
+                    color: $color-organe-0;
+
+                }
+                &.active{
+                    // border: none;
                     color: $color-organe-0;
                 }
             }

@@ -898,8 +898,13 @@ footer .footer__copyright .imgCongThuong img {
   margin: 0;
 }
 
+.movie__content .myTab .movie__go {
+  z-index: 9999;
+}
+
 .movie__content .nav-item {
   margin: 0 auto;
+  padding-top: 20px;
 }
 
 .movie__content .nav-item .nav-link {
@@ -912,13 +917,17 @@ footer .footer__copyright .imgCongThuong img {
 }
 
 .movie__content .nav-item .nav-link:hover {
-  z-index: 9999;
-  font-size: 27px;
+  font-size: 23px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  color: #fb4226;
 }
 
 .movie__content .nav-item .nav-link:focus {
+  color: #fb4226;
+}
+
+.movie__content .nav-item .nav-link.active {
   color: #fb4226;
 }
 
@@ -1112,6 +1121,10 @@ footer .footer__copyright .imgCongThuong img {
   .movie__content .owl-next span {
     display: none;
   }
+}
+
+.app {
+  padding-top: 30px;
 }
 
 .app__content {

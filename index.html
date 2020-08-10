@@ -258,7 +258,7 @@
         <class class="movie__content">
             <div class="col">
                 <div class="myTab">
-                    <div>
+                    <!-- <div> -->
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
                                 <a class="nav-link active" id="home-tab" data-toggle="tab" href="#dangChieu" role="tab"
@@ -269,7 +269,7 @@
                                     aria-controls="profile" aria-selected="false">Sắp Chiếu</a>
                             </li>
                         </ul>
-                    </div>
+                    <!-- </div> -->
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="dangChieu" role="tabpanel"
                             aria-labelledby="home-tab">
@@ -605,7 +605,7 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="sapChieu" role="tabpanel" aria-labelledby="profile-tab">
-                            <div class="owl-carousel owl-theme container">
+                            <div class="owl-carousel owl-exam owl-theme container">
                                 <div class="movie__more card">
                                     <div class="movie__items">
                                         <img class="card-img-top" src="./img/dangchieu9.png" alt="Card image">
@@ -624,6 +624,7 @@
                                         <div class="movie__buy">
                                             <i class="go fa fa-play js-video-btn" data-video-id="686mNAJVXzA"></i>
                                             <a href="">MUA VÉ</a>
+                                            <!-- <div class="color"></div> -->
                                         </div>
                                     </div>
                                     <div class="movie__items">
@@ -4360,7 +4361,7 @@
     <script src="./js/owl.carousel.min.js"></script>
     <script>
         $('.owl-app').owlCarousel({
-            loop: false,
+            loop: true,
             // margin:10,
             nav: true,
             responsive: {
@@ -4380,7 +4381,7 @@
     </script>
     <script>
         $('.owl-exam').owlCarousel({
-            loop: false,
+            loop: true,
             // margin:10,
             nav: true,
             responsive: {
